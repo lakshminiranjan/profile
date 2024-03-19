@@ -18,7 +18,7 @@ const ProfileContent = ({ name, age, role, address, education, bio }) => {
           id="role"
           value={role}
           placeholder="Role"
-          style={{ height: "30px", width: "100%", boxSizing: "border-box" }}
+          style={{ height: "30px", width: "80%", boxSizing: "border-box" }}
         />
       </div>
       <div style={{ marginBottom: "20px", width: "100%", maxWidth: "400px" }}>
@@ -30,7 +30,7 @@ const ProfileContent = ({ name, age, role, address, education, bio }) => {
           id="age"
           value={age}
           placeholder="Age"
-          style={{ height: "30px", width: "100%", boxSizing: "border-box" }}
+          style={{ height: "30px", width: "80%", boxSizing: "border-box" }}
         />
       </div>
       <div style={{ marginBottom: "20px", width: "100%", maxWidth: "400px" }}>
@@ -45,7 +45,7 @@ const ProfileContent = ({ name, age, role, address, education, bio }) => {
           id="address"
           value={address}
           placeholder="Address"
-          style={{ height: "30px", width: "100%", boxSizing: "border-box" }}
+          style={{ height: "30px", width: "80%", boxSizing: "border-box" }}
         />
       </div>
       <div style={{ marginBottom: "20px", width: "100%", maxWidth: "400px" }}>
@@ -60,7 +60,7 @@ const ProfileContent = ({ name, age, role, address, education, bio }) => {
           id="education"
           value={education}
           placeholder="Education"
-          style={{ height: "30px", width: "100%", boxSizing: "border-box" }}
+          style={{ height: "30px", width: "80%", boxSizing: "border-box" }}
         />
       </div>
       <div style={{ marginBottom: "20px", width: "100%", maxWidth: "400px" }}>
