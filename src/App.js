@@ -20,17 +20,19 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div style={{ maxWidth: "100%", overflowX: "hidden" }}>
       <NavBar />
-      <ProfileHeader name={profileInfo.name} title={profileInfo.title} />
-      <ProfileContent
-        name={profileInfo.name}
-        role={profileInfo.role}
-        age={profileInfo.age}
-        address={profileInfo.address}
-        education={profileInfo.education}
-        bio={profileInfo.bio}
-      />
+      <div style={{ padding: "10px" }}>
+        <ProfileHeader name={profileInfo.name} title={profileInfo.title} />
+        <ProfileContent
+          name={profileInfo.name}
+          role={profileInfo.role}
+          age={profileInfo.age}
+          address={profileInfo.address}
+          education={profileInfo.education}
+          bio={profileInfo.bio}
+        />
+      </div>
     </div>
   );
 };
